@@ -1,0 +1,16 @@
+## ⚙️ 本地端快速啟動指南
+
+為了確保系統的完整功能（AI 規劃與地圖資訊），您需要自備 Google Gemini 與 Google Maps 的 API 金鑰。請打開終端機（Terminal），跟著以下步驟一氣呵成完成設定：
+
+### 1. 完整安裝指令
+請在終端機依序輸入以下指令，完成專案下載與環境建置：
+```bash
+# 下載專案並進入資料夾
+git clone [https://github.com/您的GitHub帳號/您的專案名稱.git](https://github.com/您的GitHub帳號/您的專案名稱.git)
+cd 您的專案資料夾名稱
+
+# 安裝環境依賴套件
+pip install -r requirements.txt
+
+# 建立金鑰存放的隱藏資料夾
+mkdir .streamlit
