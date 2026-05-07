@@ -10,25 +10,25 @@
 
 ## 🚀 核心功能亮點
 
-* [cite_start]**🤖 AI 智慧行程規劃**：整合 **Google Gemini 2.0 Flash** 模型進行語義分析，自動生成符合邏輯且時程連續的客製化行程 。
-* [cite_start]**☁️ 實時天氣感知與避險**：串接 **Open-Meteo API**，系統能根據旅遊期間的降雨機率，自動觸發「雨天避險邏輯」，將戶外景點替換為室內備案 。
-* [cite_start]**📍 地理資訊視覺化**：整合 **Google Maps Platform** (Places, Geocoding)，提供即時景點評論、星級、營業時間檢查，並支援一鍵啟動導航。
-* [cite_start]**🚌 智慧交通耗時估算**：結合 **TDX (Transport Data eXchange)** 資料，根據地理座標精確計算景點間的移動與交通時間。
-* [cite_start]**🔐 使用者管理系統**：具備帳號註冊、登入功能，並能完整紀錄使用者的歷史行程與天氣資訊 。
-* [cite_start]**📊 流程圖渲染**：使用 **Graphviz** 將行程路徑轉化為視覺化流程圖，方便掌握空間動線 。
+* **🤖 AI 智慧行程規劃**：整合 **Google Gemini 2.0 Flash** 模型進行語義分析，自動生成符合邏輯且時程連續的客製化行程 。
+* **☁️ 實時天氣感知與避險**：串接 **Open-Meteo API**，系統能根據旅遊期間的降雨機率，自動觸發「雨天避險邏輯」，將戶外景點替換為室內備案 。
+* **📍 地理資訊視覺化**：整合 **Google Maps Platform** (Places, Geocoding)，提供即時景點評論、星級、營業時間檢查，並支援一鍵啟動導航。
+* **🚌 智慧交通耗時估算**：結合 **TDX (Transport Data eXchange)** 資料，根據地理座標精確計算景點間的移動與交通時間。
+* **🔐 使用者管理系統**：具備帳號註冊、登入功能，並能完整紀錄使用者的歷史行程與天氣資訊 。
+* **📊 流程圖渲染**：使用 **Graphviz** 將行程路徑轉化為視覺化流程圖，方便掌握空間動線 。
 
 ---
 
 ## 🛠️ 技術棧 (Tech Stack)
 
-* [cite_start]**開發框架**：Streamlit 
-* [cite_start]**核心語言**：Python 3.11+ 
-* [cite_start]**AI 模型**：Google Gemini 2.0 Flash
+* **開發框架**：Streamlit 
+* **核心語言**：Python 3.11+ 
+* **AI 模型**：Google Gemini 2.0 Flash
 * **API 整合**：
-    * [cite_start]Google Maps API (Details, Photos, Autocomplete, Geocoding) 
-    * [cite_start]Open-Meteo API (即時與預測天氣) 
-    * [cite_start]TDX (Transport Data eXchange) 交通資訊 
-* [cite_start]**資料處理與視覺化**：Pandas, Graphviz 
+    * Google Maps API (Details, Photos, Autocomplete, Geocoding) 
+    * Open-Meteo API (即時與預測天氣) 
+    * TDX (Transport Data eXchange) 交通資訊 
+* **資料處理與視覺化**：Pandas, Graphviz 
 
 ---
 
