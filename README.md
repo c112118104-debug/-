@@ -32,6 +32,41 @@
 
 ---
 
+## ⚙️ 本地端快速啟動指南
+
+為了確保系統的完整功能（AI 規劃與地圖資訊），您需要自備 Google Gemini 與 Google Maps 的 API 金鑰。
+#### 請打開終端機（Terminal），跟著以下步驟一氣呵成完成設定：
+
+## 1. 完整安裝指令
+#### 請在終端機依序輸入以下指令，完成專案下載與環境建置：
+```bash
+# 下載專案並進入資料夾
+git clone [https://github.com/您的GitHub帳號/您的專案名稱.git](https://github.com/您的GitHub帳號/您的專案名稱.git)
+cd 您的專案資料夾名稱
+
+# 安裝環境依賴套件
+pip install -r requirements.txt
+
+# 建立金鑰存放的隱藏資料夾
+mkdir .streamlit
+```
+---
+## 2. 🔑 填寫 API 金鑰
+#### 資料夾建立後，請在 .streamlit 資料夾內手動新增一個名為 secrets.toml 的檔案，並填入您的金鑰
+```bash
+GOOGLE_API_KEY = "您的_Gemini_API_Key"
+GOOGLE_MAPS_API_KEY = "您的_Google_Maps_API_Key"
+```
+---
+## 3. 🚀 啟動系統
+#### 金鑰存檔後，回到終端機輸入以下指令啟動網站：
+```bash
+streamlit run taipei.py
+```
+
+
+
+
 ## 📂 專案結構
 
 ```text
