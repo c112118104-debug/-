@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% 定義樣式
     classDef frontend fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
@@ -48,3 +49,5 @@ graph TD
     前端介面層 <==> |1. 使用者請求參數 / 4. 回傳視覺化結果| 核心邏輯層
     核心邏輯層 <==> |2. API 請求 / 回傳環境感知數據| 外部感知層
     核心邏輯層 <==> |3. 讀寫快取、資料檢索與存檔| 資料儲存層
+```
+
