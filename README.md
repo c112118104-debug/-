@@ -7,6 +7,12 @@
 這是一個基於 **Python** 與 **Streamlit** 框架開發的個人化旅遊規劃平台。本系統旨在解決現代旅遊資訊過載（Information Overload）的痛點，透過整合大型語言模型（LLM）與多源實時 API，為使用者提供精準、流暢且具備環境感知能力的行程方案 。
 
 ---
+## 🎬 系統操作 Demo
+
+[![智慧旅遊推薦系統 Demo](https://img.youtube.com/vi/RH8X2HhWbgo/maxresdefault.jpg)](https://www.youtube.com/watch?v=RH8X2HhWbgo)
+
+> 💡 **點擊上方圖片即可觀看完整的系統操作與功能展示影片。**
+---
 
 ## 🚀 核心功能亮點
 
