@@ -9,7 +9,9 @@
 ---
 ## 🎬 系統操作 Demo
 
-[![智慧旅遊推薦系統 Demo](https://img.youtube.com/vi/RH8X2HhWbgo/maxresdefault.jpg)](https://www.youtube.com/watch?v=RH8X2HhWbgo)
+<a href="https://www.youtube.com/watch?v=RH8X2HhWbgo" target="_blank">
+  <img src="https://img.youtube.com/vi/RH8X2HhWbgo/maxresdefault.jpg" alt="智慧旅遊推薦系統 Demo" />
+</a>
 
 > 💡 **點擊上方圖片即可觀看完整的系統操作與功能展示影片。**
 ---
